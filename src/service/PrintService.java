@@ -15,8 +15,8 @@ public class PrintService {
         System.out.println("Количество выбранных компьютером спичек = " + matchesPulledByComputer);
     }
 
-    public void printPlayerMove(){
-        System.out.println("Ход игрока. Введите количество спичек: ");
+    public void printPersonMove(){
+        System.out.print("Ход игрока. Введите количество спичек: ");
     }
 
     public void printPlayerLoss(Player player){
