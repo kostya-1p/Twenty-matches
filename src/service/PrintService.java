@@ -20,7 +20,7 @@ public class PrintService {
     }
 
     public void printPlayerLoss(Player player){
-        System.out.println(player.toString() + " проиграл!");
+        System.out.println("Осталась последняя спичка. " + player.toString() + " проиграл!");
         System.out.println("Игра окончена.");
     }
 
